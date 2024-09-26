@@ -1,0 +1,9 @@
+ec2 ip used to generate images
+
+ec2-user@ip-10-133-52-28 ~]$ 
+
+10.133.52.187
+
+10.133.52.6
+
+[root@ip-10-133-52-6 docker-image-generator
