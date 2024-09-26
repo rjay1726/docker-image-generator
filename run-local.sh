@@ -72,8 +72,8 @@ echo "== Using ${NUM_OF_THREADS} threads"
 echo
 
 # Login to registry
-echo "Docker login to ${DOCKER_REGISTRY}"
-docker login -u ${DOCKER_USER} -p ${DOCKER_PASSWORD} ${DOCKER_REGISTRY} || errorExit "Docker login failed. Do you have a running Docker registry?"
+# echo "Docker login to ${DOCKER_REGISTRY}"
+# docker login -u ${DOCKER_USER} -p ${DOCKER_PASSWORD} ${DOCKER_REGISTRY} || errorExit "Docker login failed. Do you have a running Docker registry?"
 
 # Calculate the loop size
 LOOP_SIZE=$((${NUMBER_OF_IMAGES} / ${NUM_OF_THREADS}))
